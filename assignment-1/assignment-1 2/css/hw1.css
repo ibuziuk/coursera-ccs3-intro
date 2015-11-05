@@ -57,6 +57,34 @@ img {
   height: 150px;
 }
 
+table {
+  font-family: Helvetica, Arial;
+  width: 500px;
+  margin-right: 0 auto;
+}
+
+th {
+  background-color: yellow;
+  border: 1px red;
+  border-radius: 20%;
+}
+
+tr {
+  background-color: green;
+  opacity: 0.7;
+}
+
+tr:hover {
+  opacity: 1;
+}
+
+td {
+  padding: 10px;
+  border-radius: 2px;
+  background-color: blue;
+  text-shadow: 2px 2px #ff0000;
+}
+
 .active {
   background-color: #ffffff;
 }
