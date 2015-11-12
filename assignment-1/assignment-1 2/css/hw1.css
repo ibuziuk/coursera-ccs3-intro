@@ -59,14 +59,34 @@ img {
 
 table {
   font-family: Helvetica, Arial;
-  width: 500px;
-  margin-right: 0 auto;
+  text-align: center;
+  width: 90%;
+  margin-left: 100px; 
+  line-height: 15px;
+}
+
+table > tbody > tr > td:first-child {
+  text-align: left;
+}
+
+table > tbody > tr > th:first-child {
+  text-align: left;
 }
 
 th {
-  background-color: yellow;
-  border: 1px red;
-  border-radius: 20%;
+  background: -webkit-linear-gradient(#65bb00, #006100); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#65bb00, #006100); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#65bb00, #006100); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#65bb00, #00af00); /* Standard syntax (must be last) */
+  border-style: solid;
+  border-color:#1a4c1a; 
+  border-width: 2px;
+  border-bottom-width: 1px;
+  line-height: 20px;
+  text-shadow: 2px 1px #81ef00;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 tr {
@@ -81,8 +101,8 @@ tr:hover {
 td {
   padding: 10px;
   border-radius: 2px;
-  background-color: blue;
-  text-shadow: 2px 2px #ff0000;
+  background-color: #e2ffc0;
+  text-shadow: 2px 1px #81ef00;
 }
 
 .active {
@@ -98,5 +118,5 @@ td {
 }
 
 .right {
-  padding: 10px;
+  display: inline-block;
 }
